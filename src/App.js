@@ -10,11 +10,13 @@ function App() {
       <header>
         <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/navbar-logo.svg"/>
         <div className="menu">MENU</div>
-        <span>SERVICES</span>
-        <span>PORTFOLIO</span>
-        <span>ABOUT</span>
-        <span>TEAM</span>
-        <span>CONTACT</span>
+        <nav>
+          <span>SERVICES</span>
+          <span>PORTFOLIO</span>
+          <span>ABOUT</span>
+          <span>TEAM</span>
+          <span>CONTACT</span>
+        </nav>
 
       </header>
     </div>
