@@ -3,21 +3,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <img src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/navbar-logo.svg"/>
+        <div className="menu">MENU</div>
+        <span>SERVICES</span>
+        <span>PORTFOLIO</span>
+        <span>ABOUT</span>
+        <span>TEAM</span>
+        <span>CONTACT</span>
+
       </header>
     </div>
   );
