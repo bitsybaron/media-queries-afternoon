@@ -3,11 +3,12 @@
   width: 100vw;
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
   background-size: cover;
+  background-position: center center;
   
 }
 
 header {
-  height: 90px;
+  height: 80px;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -59,7 +60,7 @@ span {
     margin-right: 220px;
   }
 
-  .menu:click
+  
   .menu {
     display: initial;
     background-color: #fed136;
